@@ -1,0 +1,10 @@
+@Relay_controller_app_HostAddress = https://localhost:7158
+
+GET {{Relay_controller_app_HostAddress}}/api/Relay/listAll
+Accept: application/json
+
+###
+
+
+POST {{Relay_controller_app_HostAddress}}/api/Relay/1/status?status=true
+Accept: application/json
